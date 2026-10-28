@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+.headbanner {
+    background-color: bisque;
+    font-family: "Quantico", sans-serif;
+    padding: 0.2rem 0.2rem;
+
+}
+.Banner {
+    background-color: greenyellow;
+    padding: 1rem 0.5rem;
+}
+.menu {
+    background-color: #961616;
+}
+
+/* Font Styling stuff */
+.source-serif-4-<uniquifier> {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.quantico-regular {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quantico-regular-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.quantico-bold-italic {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.iosevka-charon-mono-light {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-regular {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-medium {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-bold {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.iosevka-charon-mono-light-italic {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.iosevka-charon-mono-regular-italic {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.iosevka-charon-mono-medium-italic {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.iosevka-charon-mono-bold-italic {
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
