@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Healthcare Referral System</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Healthcare Referral System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="register-hero">
+            <h2>Create Your Account</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+
+        <section class="register-content">
+            <article class="register-form-section">
+                <h3>Registration Form</h3>
+                <form class="register-form" action="login.html" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Choose a username" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Create a password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword">Confirm Password</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="role">Account Type</label>
+                        <select id="role" name="role" required>
+                            <option value="">Select your role</option>
+                            <option value="physician">Physician / Provider</option>
+                            <option value="nurse">Nurse / Clinician</option>
+                            <option value="admin">Administrator</option>
+                            <option value="staff">Support Staff</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="organization">Organization / Facility</label>
+                        <input type="text" id="organization" name="organization" placeholder="Hospital or clinic name">
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="terms" id="terms" required>
+                            I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="newsletter" id="newsletter">
+                            Subscribe to updates and newsletters
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-register">Create Account</button>
+                </form>
+                <p class="register-note">Already have an account? <a href="login.html">Login here</a></p>
+            </article>
+
+            <article class="register-benefits">
+                <h3>Why Register?</h3>
+                <ul class="benefits-list">
+                    <li>
+                        <h4>Streamlined Referrals</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                    <li>
+                        <h4>Real-time Bed Tracking</h4>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </li>
+                    <li>
+                        <h4>Secure Communication</h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </li>
+                    <li>
+                        <h4>Comprehensive Reporting</h4>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="register-requirements">
+            <h3>Registration Requirements</h3>
+            <div class="requirements-grid">
+                <div class="requirement-item">
+                    <h4>Valid Credentials</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Professional license verification required for clinical roles.</p>
+                </div>
+                <div class="requirement-item">
+                    <h4>Organization Affiliation</h4>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="requirement-item">
+                    <h4>Email Verification</h4>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="requirement-item">
+                    <h4>Administrator Approval</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Healthcare Referral System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

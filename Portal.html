@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal - Healthcare Referral System</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Healthcare Referral System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portal-header">
+            <h2>Provider Portal</h2>
+            <p>Welcome back, Dr. Smith | <a href="login.html">Logout</a></p>
+        </section>
+
+        <section class="portal-stats">
+            <div class="stat-card">
+                <h3>Active Referrals</h3>
+                <p class="stat-number">24</p>
+            </div>
+            <div class="stat-card">
+                <h3>Pending Reviews</h3>
+                <p class="stat-number">8</p>
+            </div>
+            <div class="stat-card">
+                <h3>Available Beds</h3>
+                <p class="stat-number">42</p>
+            </div>
+            <div class="stat-card">
+                <h3>Messages</h3>
+                <p class="stat-number">5</p>
+            </div>
+        </section>
+
+        <section class="portal-main">
+            <aside class="portal-sidebar">
+                <nav class="portal-nav">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#" class="active">Dashboard</a></li>
+                        <li><a href="#">New Referral</a></li>
+                        <li><a href="#">My Referrals</a></li>
+                        <li><a href="#">Patient Search</a></li>
+                        <li><a href="#">Bed Availability</a></li>
+                        <li><a href="#">Facility Directory</a></li>
+                        <li><a href="#">Messages</a></li>
+                        <li><a href="#">Reports</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <div class="portal-content">
+                <section class="portal-section">
+                    <h3>Recent Referrals</h3>
+                    <table class="referral-table">
+                        <thead>
+                            <tr>
+                                <th>Patient</th>
+                                <th>Referring Provider</th>
+                                <th>Specialty</th>
+                                <th>Status</th>
+                                <th>Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jane Doe</td>
+                                <td>Dr. Johnson</td>
+                                <td>Cardiology</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td>Oct 25, 2026</td>
+                                <td><a href="#" class="btn-small">Review</a></td>
+                            </tr>
+                            <tr>
+                                <td>Robert Wilson</td>
+                                <td>Dr. Martinez</td>
+                                <td>Orthopedics</td>
+                                <td><span class="status approved">Approved</span></td>
+                                <td>Oct 24, 2026</td>
+                                <td><a href="#" class="btn-small">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>Maria Garcia</td>
+                                <td>Dr. Lee</td>
+                                <td>Neurology</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td>Oct 24, 2026</td>
+                                <td><a href="#" class="btn-small">Review</a></td>
+                            </tr>
+                            <tr>
+                                <td>James Brown</td>
+                                <td>Dr. Taylor</td>
+                                <td>Oncology</td>
+                                <td><span class="status completed">Completed</span></td>
+                                <td>Oct 23, 2026</td>
+                                <td><a href="#" class="btn-small">View</a></td>
+                            </tr>
+                            <tr>
+                                <td>Lisa Anderson</td>
+                                <td>Dr. White</td>
+                                <td>Pediatrics</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td>Oct 22, 2026</td>
+                                <td><a href="#" class="btn-small">Review</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" class="btn-view-all">View All Referrals</a>
+                </section>
+
+                <section class="portal-section">
+                    <h3>Live Bed Availability</h3>
+                    <div class="bed-grid">
+                        <div class="bed-card">
+                            <h4>ICU</h4>
+                            <p class="bed-count">3 / 12 Available</p>
+                            <div class="bed-bar">
+                                <div class="bed-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="bed-card">
+                            <h4>Medical-Surgical</h4>
+                            <p class="bed-count">15 / 40 Available</p>
+                            <div class="bed-bar">
+                                <div class="bed-fill" style="width: 62.5%"></div>
+                            </div>
+                        </div>
+                        <div class="bed-card">
+                            <h4>Telemetry</h4>
+                            <p class="bed-count">8 / 20 Available</p>
+                            <div class="bed-bar">
+                                <div class="bed-fill" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="bed-card">
+                            <h4>Emergency</h4>
+                            <p class="bed-count">12 / 25 Available</p>
+                            <div class="bed-bar">
+                                <div class="bed-fill" style="width: 52%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="portal-section">
+                    <h3>Quick Actions</h3>
+                    <div class="quick-actions">
+                        <a href="#" class="action-btn">
+                            <h4>Create Referral</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </a>
+                        <a href="#" class="action-btn">
+                            <h4>Check Availability</h4>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </a>
+                        <a href="#" class="action-btn">
+                            <h4>Send Message</h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
+                        </a>
+                        <a href="#" class="action-btn">
+                            <h4>Generate Report</h4>
+                            <p>Excepteur sint occaecat cupidatat non proident.</p>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Healthcare Referral System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

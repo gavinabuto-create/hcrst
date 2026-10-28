@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Healthcare Referral System</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Healthcare Referral System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-hero">
+            <h2>Login to Your Account</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+
+        <section class="login-content">
+            <article class="login-form-section">
+                <h3>Sign In</h3>
+                <form class="login-form" action="portal.html" method="post">
+                    <div class="form-group">
+                        <label for="username">Username or Email</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your username or email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="form-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="remember" id="remember"> Remember me
+                        </label>
+                        <a href="#" class="forgot-link">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn-login">Login</button>
+                </form>
+                <p class="login-note">Successful login will redirect you to the <a href="portal.html">Portal</a>.</p>
+            </article>
+
+            <article class="login-info">
+                <h3>New to Healthcare Referral System?</h3>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="register.html" class="btn-register">Create an Account</a>
+
+                <h3>Need Help?</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <ul>
+                    <li><a href="contact.html">Contact Support</a></li>
+                    <li><a href="#">View Documentation</a></li>
+                    <li><a href="#">System Requirements</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="login-features">
+            <h3>Portal Features</h3>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h4>Patient Management</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Referral Tracking</h4>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Real-time Availability</h4>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Secure Messaging</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Healthcare Referral System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
